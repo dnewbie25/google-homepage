@@ -1,8 +1,11 @@
-.logo{
+/*logo and margin/padding properties*/
+
+#logo{
 
     text-align:center;
     margin: 150px;
     padding: 150px;
+    position: relative;
 
 }
 
@@ -15,28 +18,56 @@ li{
     
 }
 
-.navbar{
+
+
+/*navigation bar's properties*/
+
+#navbar{
     position: absolute;
-    top:0;
-    right: 65px;
+    top: 10px;
+    right: 10px;
+    word-spacing: 10px;
    
 }
 
-.footer-left{
+#signin{
+    word-spacing: 0px;
+}
 
+#menu-squares{
     position: relative;
-    left: -80px;
+    top: 5px;
+        
+}
+
+/*Footers' properties*/
+
+#footer-left{
+
+    position: absolute;
+    left: 10px;
     word-spacing: 10px;
     
+    
    
+}
+
+#search-works{
+    word-spacing: 0px;
 }
 
 #Colombia{
-    position: relative;
-    left: 65px;
-    top: -50px;
+    position: absolute;
+    left: 40px;
+    bottom: 50px;
     
 
+}
+
+#footer-right{
+    position: absolute;
+    right: 10px;
+    word-spacing: 10px;
 }
 
 
