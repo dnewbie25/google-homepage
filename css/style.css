@@ -70,5 +70,12 @@ li{
     word-spacing: 10px;
 }
 
+/*Input and search tools, with the search bar as the margin and padding center*/
+
+input{
+    position: relative;
+    bottom: 300px;
+    left: 421.5px;
+}
 
 
